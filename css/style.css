@@ -1,0 +1,162 @@
+/* 2015-07-30 C. Teeters
+    Customized CSS for Portfolio project
+    Used inconjunction with Twitter Bootstrap 3
+*/
+
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('../fonts/indieflower-webfont.eot');
+  src: url('../fonts/indieflower-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/indieflower-webfont.woff2') format('woff2'), url('../fonts/indieflower-webfont.woff') format('woff'), url('../fonts/indieflower-webfont.ttf') format('truetype'), url('../fonts/indieflower-webfont.svg#indie_flowerregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #efeeea;
+  background-color: #4e4e4e;
+}
+h1, h2, h3, h4 {
+  font-family: 'Indie Flower', sans-serif;
+  color: #efeeea;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+p {
+  margin: 10px 0 10px;
+}
+
+/* Catch all so all embedded media fit in their containers */
+
+img, video, embed {
+  max-width: 100%;
+}
+
+/* Make a display font for titles */
+
+.title-super {
+  font-size: 48px;
+}
+.title-sub {
+  font-size: 36px;
+}
+.top-buffer {
+  margin-top: 20px;
+}
+.bottom-buffer {
+  margin-bottom: 20px;
+}
+.left-buffer {
+  margin-left: 0;
+}
+
+/* Breakpoints 992 and 768 set by bootstrap */
+
+@media screen and (max-width: 992px) {
+  .title-super {
+    font-size: 36px;
+  }
+  .title-sub {
+    font-size: 32px;
+  }
+  .left-buffer {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title-super {
+    font-size: 32px;
+  }
+  .title-sub {
+    font-size: 24px;
+  }
+}
+
+/* Use a thinner font - works well with title-super */
+
+.text-thin {
+  font-weight: 100;
+}
+
+/* Color text to an almost grey */
+
+.text-muted {
+  color: #998100;
+}
+
+/* Change Bootstrap button color */
+
+.btn-primary {
+  background: #8E603B;
+  color: #ffffff;
+  border-color: #8E603B;
+}
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #8E603B;
+  border-color: #8E603B;
+}
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #8E603B;
+  border-color: #8E603B;
+}
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+  color: #ffffff;
+  background-color: #8E603B;
+  border-color: #8E603B;
+}
+
+/* Change margin jumbtron */
+
+.jumbotron {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px;
+}
+
+/* Size header better */
+
+.title-logo {
+  margin-top: 10px;
+}
+.my-logo {
+  width: 140px;
+  height: 140px;
+}
+.text-down {
+  vertical-align: bottom;
+}
+
+/* Make a nice box for the page-header (modified from bootstrap page-header) */
+
+.my-box {
+  padding-top: 10px;
+  padding-bottom: 9px;
+  border-bottom: 4px solid #efeeea;
+  margin-bottom: 10px;
+}
+
+/* Create a hover effect for modal pictures */
+
+.img-hover img:hover {
+  -webkit-transform: scale(1.5);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.5);
+  /* Firefox */
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -o-transform: scale(1.5);
+  /* Opera */
+  transform: scale(1.5);
+}
+
+/* Change font size */
+
+.larger-font {
+  font-size: larger;
+}
+.modal-body {
+  font-family: 'arial', sans-serif;
+  color: #efeeea;
+  background-color: #4e4e4e;
+}

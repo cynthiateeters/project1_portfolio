@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement("picture");
+  </script>
+  <script src="js/picturefill.min.js" async></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- favicons for all occasions -->
+  <link rel="apple-touch-icon" sizes="57x57" href="appl-touch-icon-57x57.png?v=lkkgvXeeQJ">
+  <link rel="apple-touch-icon" sizes="60x60" href="appl-touch-icon-60x60.png?v=lkkgvXeeQJ">
+  <link rel="apple-touch-icon" sizes="72x72" href="appl-touch-icon-72x72.png?v=lkkgvXeeQJ">
+  <link rel="apple-touch-icon" sizes="76x76" href="appl-touch-icon-76x76.png?v=lkkgvXeeQJ">
+  <link rel="apple-touch-icon" sizes="114x114" href="appl-touch-icon-114x114.png?v=lkkgvXeeQJ">
+  <link rel="apple-touch-icon" sizes="120x120" href="appl-touch-icon-120x120.png?v=lkkgvXeeQJ">
+  <link rel="apple-touch-icon" sizes="144x144" href="appl-touch-icon-144x144.png?v=lkkgvXeeQJ">
+  <link rel="apple-touch-icon" sizes="152x152" href="appl-touch-icon-152x152.png?v=lkkgvXeeQJ">
+  <link rel="apple-touch-icon" sizes="180x180" href="appl-touch-icon-180x180.png?v=lkkgvXeeQJ">
+  <link rel="icon" type="image/png" href="favicon-32x32.png?v=lkkgvXeeQJ" sizes="32x32">
+  <link rel="icon" type="image/png" href="android-chrome-192x192.png?v=lkkgvXeeQJ" sizes="192x192">
+  <link rel="icon" type="image/png" href="favicon-96x96.png?v=lkkgvXeeQJ" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicon-16x16.png?v=lkkgvXeeQJ" sizes="16x16">
+  <link rel="manifest" href="/manifest.json?v=lkkgvXeeQJ">
+  <link rel="shortcut icon" href="favicon.ico?v=lkkgvXeeQJ">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=lkkgvXeeQJ">
+  <meta name="theme-color" content="#ffffff">
+  <title>Cynthia Teeters Portfolio</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Do the hero stuff with logo, title and hero -->
+    <header>
+      <div class="row my-box">
+        <div class="col-xs-5">
+          <img class="my-logo title-logo img-responsive" src="images/bd-tools.svg" alt="Brainy Design Logo">
+        </div>
+        <div class="col-xs-7 text-right text-down">
+          <h1 class="title-super">Cynthia Teeters</h1>
+          <h2 class="title-sub">@Brainy Designs</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <picture>
+            <!--[if IE 9]><video style="display: none;"><![endif]-->
+            <source srcset="images/rd-chalkboard-1140x500.jpg" media="(min-width: 992px)">
+            <source srcset="images/rd-chalkboard-1140x500.webp" media="(min-width: 992px)" type="image/webp">
+            <source srcset="images/rd-chalkboard-800x351.jpg" media="(min-width: 768px)">
+            <!--[if IE 9]></video><![endif]-->
+            <img class="img-responsive img-rounded" src="images/rd-chalkboard-570x250.jpg" alt="Responsive Web Design">
+          </picture>
+        </div>
+      </div>
+    </header>
+    <!-- Display portfolio, resume, and game -->
+    <section>
+      <header>
+        <div class="row my-box">
+          <div class="col-md-12">
+            <h2>My Featured Work</h2>
+          </div>
+        </div>
+      </header>
+      <div class="row text-center top-buffer">
+        <div class="col-md-4 top-buffer bottom-buffer">
+          <picture>
+            <!--[if IE 9]><video style="display: none;"><![endif]-->
+            <source srcset="images/portfolio-555x395.jpg" media="(min-width: 992px) ">
+            <source srcset="images/portfolio-396x282.jpg" media="(min-width: 768px)">
+            <!--[if IE 9]></video><![endif]-->
+            <img class="img-responsive img-rounded" src="images/portfolio-278x198.jpg" alt="Portfolio">
+          </picture>
+          <div class="btn btn-primary btn-lg top-buffer left-buffer" data-toggle="modal" data-target="#project1">
+            <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Check It Out</div>
+        </div>
+        <div class="col-md-4 top-buffer bottom-buffer">
+          <picture>
+            <!--[if IE 9]><video style="display: none;"><![endif]-->
+            <source srcset="images/interactive-resume-555x395.jpg" media="(min-width: 992px) ">
+            <source srcset="images/interactive-resume-396x282.jpg" media="(min-width: 768px)">
+            <!--[if IE 9]></video><![endif]-->
+            <img class="img-responsive img-rounded" src="images/interactive-resume-278x198.jpg" alt="Interactive Resume">
+          </picture>
+          <div class="btn btn-primary btn-lg top-buffer left-buffer" data-toggle="modal" data-target="#project2">
+            <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Interact With It</div>
+        </div>
+
+        <div class="col-md-4 top-buffer bottom-buffer">
+          <picture>
+            <!--[if IE 9]><video style="display: none;"><![endif]-->
+            <source srcset="images/arcade-game-555x395.jpg" media="(min-width: 992px) ">
+            <source srcset="images/arcade-game-396x282.jpg" media="(min-width: 768px)">
+            <!--[if IE 9]></video><![endif]-->
+            <img class="img-responsive img-rounded" src="images/arcade-game-278x198.jpg" alt="Classic Arcade Game">
+          </picture>
+
+          <div class="btn btn-primary btn-lg top-buffer left-buffer" data-toggle="modal" data-target="#project3">
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Play With It</div>
+        </div>
+      </div>
+    </section>
+    <!-- Display footer stuff in relatively small text -->
+    <footer class="row text-center">
+      <p>
+        <small>This is a personalized rendering of a mockup for the Udacity Front-End Web Developer Nanodegree. Copyright &copy; Cynthia Teeters 2015.</small>
+      </p>
+    </footer>
+
+    <!-- Modal 1 - Portfolio -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header modal-body">
+            <h4 class="modal-title" id="myModalLabel1">An Introduction to My Portfolio</h4>
+          </div>
+          <div class="modal-body">
+            <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="images/portfolio-555x395.jpg" media="(min-width: 992px) ">
+              <source srcset="images/portfolio-396x282.jpg" media="(min-width: 768px)">
+              <!--[if IE 9]></video><![endif]-->
+              <img class="img-responsive img-rounded" src="images/portfolio-278x198.jpg" alt="Portfolio">
+            </picture>
+            <p>
+              I developed a responsive website that displays images, descriptions, and links to each of the portfolio projects I completed for the course of the Front-End Web Developer Nanodegree.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 - Interactive Resume-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header modal-body">
+            <h4 class="modal-title" id="myModalLabel2">An Introduction to My Interactive Resume</h4>
+          </div>
+          <div class="modal-body">
+            <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="images/interactive-resume-555x395.jpg" media="(min-width: 992px) ">
+              <source srcset="images/interactive-resume-396x282.jpg" media="(min-width: 768px)">
+              <!--[if IE 9]></video><![endif]-->
+              <img class="img-responsive img-rounded" src="images/interactive-resume-278x198.jpg" alt="Interactive Resume">
+            </picture>
+            <p>
+              I developed an interactive resume application that reads my resume content from a JSON file and dynamically displays that content within a provided template. I made use of objects, functions, conditionals, and control structures to compose the content
+              that will display on the resume.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 - Classic Arcade Game -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header modal-body">
+            <h4 class="modal-title" id="myModalLabel3">Classic Arcade Game Page</h4>
+          </div>
+          <div class="modal-body">
+            <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="images/arcade-game-555x395.jpg" media="(min-width: 992px) ">
+              <source srcset="images/arcade-game-396x282.jpg" media="(min-width: 768px)">
+              <!--[if IE 9]></video><![endif]-->
+              <img class="img-responsive img-rounded" src="images/arcade-game-278x198.jpg" alt="Classic Arcade Game">
+            </picture>
+            <p>
+              Using visual assets and a game loop engine, I added a number of entities to the game, including the player characters and enemies, to recreate the classic arcade game Frogger.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end container -->
+</body>
+
+</html>
