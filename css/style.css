@@ -1,4 +1,4 @@
-/* 2015-07-31 C. Teeters
+/* 2015-08-01 C. Teeters
  Customized CSS for Portfolio project
  Used inconjunction with Twitter's Bootstrap 3
  which, itself, was customized from the site:
@@ -33,7 +33,7 @@ h4 {
 }
 
 p {
-  margin: 10px 0 10px;
+  margin: 10px 0;
 }
 
 /* Catch all so all embedded media fit in their containers */
@@ -62,10 +62,6 @@ embed {
   margin-bottom: 20px;
 }
 
-.left-buffer {
-  margin-left: 0;
-}
-
 /* Breakpoints 992 and 768 set by bootstrap */
 
 @media screen and (max-width: 992px) {
@@ -75,10 +71,6 @@ embed {
 
   .title-sub {
     font-size: 32px;
-  }
-
-  .left-buffer {
-    margin-left: 20px;
   }
 }
 
@@ -110,8 +102,7 @@ embed {
 /* Make a nice box for the page-header (modified from bootstrap page-header) */
 
 .my-box {
-  padding-top: 10px;
-  padding-bottom: 9px;
+  padding: 10px 0 9px;
   border-bottom: 4px solid #efeeea;
   margin-bottom: 10px;
 }
@@ -124,7 +115,6 @@ embed {
 
 .modal-body {
   font-family: 'Lato', sans-serif;
-  a
   color: #efeeea;
   background-color: #4e4e4e;
 }
